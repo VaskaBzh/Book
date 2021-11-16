@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+.block__book {
+    margin-top: 77px;
+    margin-bottom: 96px;
+}
+.img {
+    margin-right: 75px;
+    max-width: 404px;
+    width: 100%;
+    float: left;
+}
+.h2 {
+    margin-top: 14px;
+    margin-bottom: 38px;
+}
+.price {
+    margin-bottom: 53px;
+}
