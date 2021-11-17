@@ -4,27 +4,141 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #ffffff;
+    background-color: gainsboro;
 }
 .container {
-    max-width: 1140px;
+    max-width: 1020px; 
+    width: 100%;
+    margin: auto;  
+}   
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section {
+    max-width: 1366px;
     width: 100%;
     margin: auto;
+    background-color: #fff;
 }
-.block__book {
-    margin-top: 77px;
-    margin-bottom: 96px;
+.section_start {
+    padding-top: 77px;
+    padding-bottom: 96px;
 }
 .img {
-    margin-right: 75px;
     max-width: 404px;
     width: 100%;
-    float: left;
+}
+.h1 {
+    font-size: 46px;
+    font-weight: bold;
+    text-align: left;
 }
 .h2 {
     margin-top: 14px;
     margin-bottom: 38px;
+    font-size: 30PX;
+    text-align: left;
+}
+.p {
+    font-weight: bolder;
+    font-size: 16px;
+    max-width: 541px;
+    text-align: left;
+    line-height: 27px;
 }
 .price {
+    margin-top: 43px;
     margin-bottom: 53px;
+    font-size: 46px;
+    text-align: left;
+    font-weight: normal;
+}
+.button {
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+.button_buy {
+    padding: 22px 42px;
+    color: #fff;
+    background-color: #f05a22;
+    border: none;
+    font-size: 24px; 
+    margin-right: 40px;
+}
+.button_info {
+    padding: 20px 31px;
+    color: #f05a22;
+    background-color: #fff;
+    border: 2px solid #f05a22;
+}
+.section_middle {
+    background-color: #f2f2f2;
+    padding-top: 89px;
+    padding-bottom: 99px;
+}
+.h1_middle {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.container_middle {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+.block_middle {
+    margin-top: 91px;
+}
+.little_imgs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.little_img {
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+.p_middle {
+    max-width: 214px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+.p_nuance {
+    max-width: 256px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+.container_end {
+    max-width: 1180px;
+    width: 100%;
+    margin: auto;
+    padding-top: 89px;
+    padding-bottom: 105px;
+}
+.h1_end {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+.block_wrap {
+    flex-wrap: wrap;
+}
+.img_man {
+    margin-bottom: 40px;
+    max-width: 273px;
+    width: 100%;
+    margin-right: 25px;
+}
+.img_man_nuance {
+    margin-right: 0;    
 }
